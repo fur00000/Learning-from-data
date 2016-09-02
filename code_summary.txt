@@ -1,0 +1,28 @@
+Homeworks
+1: PLA
+2b: linear regression for boolean classifier, with or without PLA
+2c: nonlinear transformation followed by linear regression
+4: bias variance tradeoff
+5: gradient descent
+5b: logistic regression with stochastic gradient descent
+6: nonlinear transformation followed by linear regression with regularization
+7: validation
+7c: PLA vs SVM using cvxopt
+8: SVM with soft margins
+8b: SVM with polynomial kernels
+8c: SVM with 10fold cross validation
+F: nonlinear transformation followed by linear regression with regularization
+Fb: simply SVM with cvxopt
+Fc: RBF model, either by itself or as SVM kernel
+
+Topics
+Concepts
+In-sample versus out of sample
+bias verus variance (4)
+validation; cross validation (7, 8b)
+gradient descent (5, 5b)
+Techniques
+PLA: simple perceptron (1, 7c), neural networks
+Linear regression: linear/logistic (2b), with nonlinear transform (2c), with regularization (6, F)
+SVM: cvxopt implementation (7c, Fb), soft margin (8), with kernels (8b, Fc)
+clustering (Fc)
